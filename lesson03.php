@@ -9,7 +9,7 @@ for($x = 1 ; $x <= 3 ; $x++){
  for($y = 1 ; $y <= 2 ; $y ++){
  echo $y;
  }
- echo "<br />";
+ echo "\n";
 }
 
 ?>

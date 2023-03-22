@@ -26,5 +26,5 @@ function isLeapYear($year) {
  return $year % 4 == 0 && $year % 100 != 0 || $year % 400 == 0;
  }
 
-for ($i=1980; $i<=2080; $i++) printf('%d%s<br>', $i, isLeapYear($i) ? 'はうるう年です。' : '');
+for ($i=1980; $i<=2080; $i++) printf('%d%s'."\n", $i, isLeapYear($i) ? 'はうるう年です。' : '');
 ?>

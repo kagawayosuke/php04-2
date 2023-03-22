@@ -15,5 +15,5 @@ for($a = 4 ; $a >= 1 ; $a--){
  for($d = $c-2 ; $d >=1 ; $d --){
  echo $d;
  }
- echo "<br />";
+ echo "\n";
 }

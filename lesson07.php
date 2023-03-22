@@ -22,7 +22,7 @@ for($a = 1 ; $a <= 9 ; $a ++){
  for($d =$c -2 ; $d >= 1 ; $d--){
  echo $d;
  }
- echo "<br />";
+ echo "\n";
  }
  else if($a >=6 ){
  for($e = 6 ; $e <= $a ; $e++){
@@ -34,6 +34,6 @@ for($a = 1 ; $a <= 9 ; $a ++){
  for($g = $f-2 ; $g >=1 ; $g --){
  echo $g;
  }
- echo "<br />";
+ echo "\n";
  }
 }

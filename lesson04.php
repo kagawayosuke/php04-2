@@ -16,5 +16,5 @@ for($a = 1 ; $a <= 4 ; $a ++){
  for($d = 3 ; $d >=6-$c ; $d--){
  echo $d-(4-$a);
  }
- echo "<br />";
+ echo "\n";
  }
